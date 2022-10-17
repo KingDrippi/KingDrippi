@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../BOXMODEL"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "KingDrippi.github.io"
+	}
+}
