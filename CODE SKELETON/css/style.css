@@ -1,0 +1,31 @@
+h1 {
+   color:blue;
+   background-color: aqua;
+   font-size: 40px;
+   padding: 20;
+}
+p1 {
+   color: tomato;
+   text-align: ;
+
+}
+p2 {
+   color: black;
+}
+p3 {
+   color: ghostwhite;
+}
+p4 {
+   color: lime;
+}
+#container1 {
+   background-color: aquamarine;
+   border: black 5px solid;
+   padding: 10px;
+}
+#container2 {
+   background-color: blueviolet;
+   border: lime 5px dotted;
+   padding: 10px;
+   margin: 20px;
+}
