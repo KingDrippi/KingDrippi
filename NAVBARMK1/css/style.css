@@ -3,15 +3,17 @@
     list-style: none;
     text-align: center;
     height: 40px;
-    position: relative;
-    top: 150px;
+    position: fixed;
+    width: 100%;
 }
 #nav2 {
     background-color: red;
     list-style: none;
     text-align: center;
     width: 100%;
-    position: fixed;
+    position: relative;
+    height: 40px;
+    top: 150px;
 }
 #nav3 {
     background-color: aqua;
@@ -32,4 +34,5 @@ a {
 body {
     position: relative;
     background-color: azure;
+    height: 1500px;
 }
