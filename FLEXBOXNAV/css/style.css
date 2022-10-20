@@ -1,0 +1,42 @@
+ul {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    flex-direction: column;
+    border: 2px blue solid;
+    
+    
+    
+
+    
+}
+a {
+    text-decoration: none;
+}
+li {padding: 10px;
+    list-style: none;
+    
+ 
+}
+.fa-house { 
+    color: blue;
+}
+.fa-address-card {
+    color: blue;
+}
+.fa-user {
+    color: blue;
+}
+nav {
+    background-color: yellow;
+    border: 2px cornflowerblue;
+    
+}
+  @media only screen and (max-width: 768px) {
+    ul {
+        flex-direction: column;
+    }
+    
+  }
+
