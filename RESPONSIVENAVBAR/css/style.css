@@ -1,0 +1,65 @@
+nav {
+     background-color: navy;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+
+
+}
+h1 {
+   text-align: center;background-color: gold;
+   
+}
+ul {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 10px;
+   
+}
+
+li {
+   list-style: none;
+   padding: 10px;
+   letter-spacing: 5px;
+}
+
+a {
+   text-decoration: none;
+
+}
+
+
+a:hover {
+   background-color: lightskyblue;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 5s;
+}
+a:link {
+   color: whitesmoke;
+   font-weight: 800;
+
+}
+.dropdown-menu {
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   margin: 10px;
+   border: 2px solid navy;
+   position: absolute;
+   opacity: 0;
+   background-color:rgb(71, 71, 39);
+}
+.dropdown:hover .dropdown-menu{
+   opacity: 5;
+}
+
+img {
+   width: 250px;
+   
+}
+i {
+   color: aliceblue;
+}
+
