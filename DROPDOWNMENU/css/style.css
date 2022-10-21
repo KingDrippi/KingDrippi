@@ -44,7 +44,7 @@ a:link {
 .dropdown-menu {
    display: flex;
    flex-direction: column;
-   width: 50%;
+   width: 20%;
    margin: 10px;
    border: 2px solid black;
    position: absolute;
