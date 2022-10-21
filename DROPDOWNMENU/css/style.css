@@ -1,12 +1,13 @@
 nav {
-     background-color: deeppink;
+     background-color: purple;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      text-align: center;
 
 
 }
 h1 {
-   text-align: center;
+   text-align: center;background-color: gold;
+   
 }
 ul {
    display: flex;
@@ -36,7 +37,7 @@ a:hover {
    transition: 5s;
 }
 a:link {
-   color: whitesmoke;
+   color: gold;
    font-weight: 800;
 
 }
@@ -48,7 +49,7 @@ a:link {
    border: 2px solid black;
    position: absolute;
    opacity: 0;
-   background-color: limegreen;
+   background-color: rgb(235, 117, 235);
 }
 .dropdown:hover .dropdown-menu{
    opacity: 5;
