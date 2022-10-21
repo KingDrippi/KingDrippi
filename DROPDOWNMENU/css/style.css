@@ -1,0 +1,55 @@
+nav {
+     background-color: deeppink;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
+
+
+}
+h1 {
+   text-align: center;
+}
+ul {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 10px;
+   
+}
+
+li {
+   list-style: none;
+   padding: 10px;
+   letter-spacing: 5px;
+}
+
+a {
+   text-decoration: none;
+
+}
+
+
+a:hover {
+   background-color: lightpink;
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: 5s;
+}
+a:link {
+   color: whitesmoke;
+   font-weight: 800;
+
+}
+.dropdown-menu {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   margin: 10px;
+   border: 2px solid black;
+   position: absolute;
+   opacity: 0;
+   background-color: limegreen;
+}
+.dropdown:hover .dropdown-menu{
+   opacity: 5;
+}
