@@ -3,17 +3,20 @@ nav {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      text-align: center;
 
+} 
 
-}
+
 i {
    color: aliceblue;
 }
+
 h1 {
    text-align: center;
    background-color: gold;
    color: purple;
    
 }
+
 ul {
    display: flex;
    justify-content: flex-start;
@@ -21,6 +24,7 @@ ul {
    padding: 10px;
    
 }
+
 
 li {
    list-style: none;
@@ -46,6 +50,7 @@ a:link {
    font-weight: 800;
 
 }
+
 .dropdown-menu {
    display: flex;
    flex-direction: column;
@@ -56,6 +61,7 @@ a:link {
    opacity: 0;
    background-color: rgb(235, 117, 235);
 }
+
 .dropdown:hover .dropdown-menu{
    opacity: 5;
 }
