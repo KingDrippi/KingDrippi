@@ -37,7 +37,7 @@ a:hover {
    padding: 10px;
    border-radius: 5px;
    cursor: pointer;
-   transition: 5s;
+   transition: .5s;
 }
 a:link {
    color: whitesmoke;
