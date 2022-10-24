@@ -3,7 +3,6 @@ nav {
      font-family: Verdana, Geneva, Tahoma, sans-serif;
      
 
-
 }
 
 h1 {
@@ -12,6 +11,15 @@ h1 {
    color: navy;
    
 }
+p {
+   margin-right: 30%;   
+   padding: 5%;
+   
+
+      
+}
+
+
 ul {
    display: flex;
    justify-content: flex-start;
@@ -65,4 +73,3 @@ img {
 i {
    color: aliceblue;
 }
-
