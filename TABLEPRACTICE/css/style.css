@@ -1,5 +1,5 @@
 th {background-color: green;}
-table {width: 100%;
+table {width: 60%;
       margin: 10%;
       padding: 10%; 
 }
@@ -10,7 +10,7 @@ header {
 
        td {
             background-color: orange;
-            width: 30%;
+            width: 10%;
             height: 1in;
        }
 
