@@ -1,8 +1,11 @@
-th {background-color: aqua;}
+table {
+      border-bottom: solid green;
+      margin: 10%;
+      width: 80%;
+}
 
-body { padding: 50%;
       
        
 
    
-}
+
