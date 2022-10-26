@@ -1,11 +1,18 @@
-th {background-color: aqua;}
+th {background-color: green;}
 table {width: 100%;
       margin: 10%;
       padding: 10%; 
 }
-
+header {
+      color: orange;
+}
       
-       
+
+       td {
+            background-color: orange;
+            width: 30%;
+            height: 1in;
+       }
 
    
 
