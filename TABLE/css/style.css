@@ -1,9 +1,16 @@
 table {
       border-bottom: solid green;
       margin: 10%;
-      width: 80%;
+      width: 50%;
+
+      
 }
 
+
+/* Any button over which the user's pointer is hovering */
+button:hover {
+      color: red;
+    }
       
        
 
