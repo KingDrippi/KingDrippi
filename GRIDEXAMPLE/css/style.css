@@ -1,0 +1,26 @@
+#myGrid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: minmax(50px, auto);
+      grid-template-areas: 
+      "myHeader myHeader myHeader"
+      "sideNav content cntent"
+      "footer footer footer";
+}
+header {
+      background-color: aquamarine;
+      grid-area: myHeader;
+}
+nav {
+      background-color: aqua;
+      grid-area: sideNav;
+}
+
+main {
+      background-color: lightcoral;
+      grid-area: content;
+}
+footer {
+      background-color: chartreuse;
+      grid-area: footer;
+}
