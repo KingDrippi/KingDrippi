@@ -1,32 +1,37 @@
 #myGrid {
-      
-      grid-auto-rows: minmax(50px, auto);
-      grid-template-areas: 
-      "myHeader myHeader myHeader"
-      "sideNav content cntent"
-      "footer footer footer";
-}
-section {
-      background-color: antiquewhite;
-      width: 50%;
-      border-radius: 1200px;
-      margin: 10%;
-      padding: 10%;
+      height: 100vh;
       display: grid;
-      grid-template-columns: auto auto;
-
+      grid-template-columns: 10% 4fr;
+      grid-template-rows:  10% 80% 10%;
+      grid-template-areas: 
+      "myHeader myHeader myHeader myHeader myHeader"
+      "sideNav content content content content"
+      "sideNav footer footer footer footer";
+}
+header {
+      background-color: aquamarine;
+      grid-area: myHeader;
+}
+nav {
+      background-color: aqua;
+      grid-area: sideNav;
+      list-style: none;
+      
+     
 }
 img {
-      float: initial;
+      float: right;
 }
-
+p {
+      float: left;
+}
 main {
-      background-color: olive ;
+      
       grid-area: content;
+      width: 100%;
+      background-color: yellow;
 }
-
-
 footer {
-      background-color: blueviolet;
+      background-color: chartreuse;
       grid-area: footer;
 }

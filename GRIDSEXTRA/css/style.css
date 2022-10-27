@@ -1,0 +1,32 @@
+#myGrid {
+      
+      grid-auto-rows: minmax(50px, auto);
+      grid-template-areas: 
+      "myHeader myHeader myHeader"
+      "sideNav content cntent"
+      "footer footer footer";
+}
+section {
+      background-color: antiquewhite;
+      width: 50%;
+      border-radius: 1200px;
+      margin: 10%;
+      padding: 10%;
+      display: grid;
+      grid-template-columns: auto auto;
+
+}
+img {
+      float: initial;
+}
+
+main {
+      background-color: olive ;
+      grid-area: content;
+}
+
+
+footer {
+      background-color: blueviolet;
+      grid-area: footer;
+}
