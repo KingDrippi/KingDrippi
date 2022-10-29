@@ -1,0 +1,43 @@
+input[type=submit] {
+    border: none;
+    background: blue;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+input[type=submit]:hover {
+    background-color: green;
+
+}
+
+img {
+    width: 40%;
+    align-items: center;
+}
+body{
+    background-color: aliceblue;
+    display: block;
+    direction: ltr;
+    line-height: 1.34;
+    margin: 10%;
+    padding: 10%;
+    overflow-y: scroll;
+    justify-content: center;
+
+}
+form {
+width: 50%;
+height: 50%;
+background-color:white;
+display: block;
+
+
+}
+input {
+    display: block;
+
+}
