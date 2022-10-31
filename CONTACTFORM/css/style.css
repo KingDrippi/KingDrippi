@@ -59,9 +59,10 @@ width: 50%;
 height: 50%;
 background-color:white;
 
+
 }
 
-message {
+#message {
     width: 80%;
     height: 20%;
 }
