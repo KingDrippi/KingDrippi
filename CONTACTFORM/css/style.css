@@ -39,22 +39,18 @@ input[type=submit]:hover {
 
 }
 
-img {
-    width: 40%;
-    align-items: center;
-}
+
 body{
     background-color: rgb(230, 222, 222);
+   
+    overflow-y: scroll;
+}
+fieldset {
     display: block;
     direction: ltr;
-    line-height: 1.34;
     margin: 10%;
     padding: 10%;
-    overflow-y: scroll;
     justify-content: center;
-
-}
-form {
 width: 50%;
 height: 50%;
 background-color:white;

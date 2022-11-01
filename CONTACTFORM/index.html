@@ -16,19 +16,19 @@
 
 
 <form action="https://getform.io/f/ad9e4bb8-7f58-4aba-8075-04945815bd70" method="post">
-  <fieldset>
+  <fieldset >
     <p>What can we help you with?</p> 
-    <select>
+    <select required name="select">
       
-      <option value="Select what what we can help you with" disabled selected hidden>Select what we can help u with</option>
+      <option name="" value="Select what what we can help you with" disabled selected hidden>Select what we can help u with</option>
     
-      <option value="What can we help you with">Financial Aid</option>
+      <option name="financial aid" value="Financial Aid">Financial Aid</option>
 
-      <option value="What can we help you with">Counselor</option>
-      <option value="What can we help you with">Tuition</option>
-      <option value="What can we help you with">Dormitory</option>
-      <option value="What can we help you with">Admission</option>
-      <option value="What can we help you with">Parking</option>
+      <option name="counselor" value="Counselor">Counselor</option>
+      <option name="tuition" value="Tuition">Tuition</option>
+      <option name="dormitory" value="Dormitory">Dormitory</option>
+      <option name="admission" value="Admission">Admission</option>
+      <option name="parking" value="Parking">Parking</option>
     </select>
   <p>Name</p>
         <input size="50%" type="text" name="name" id="name" placeholder="Name" required minlength="6" maxlength="20" >
@@ -37,22 +37,11 @@
      <p>Email</p> 
         <input size="50%" type="text" name="email" id="email" placeholder="Email" required minlength="6" maxlength="60">
      <p>Address</p>
-        <input size="50%" type="text" name="address" placeholder="Address"required minlength="6" maxlength="20">
+        <input size="50%" type="text" name="address" placeholder="Address"required minlength="6" maxlength="50">
+
      <p>Message</p> 
        <textarea name="message" id="message" cols="30" rows="10"></textarea>
         
-      
-
-
-
-
-
-
-   
-  
-  
-  
-
   <input type="submit" value="Send">
 </form>
 
