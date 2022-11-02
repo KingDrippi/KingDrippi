@@ -18,14 +18,13 @@
     
 }
 
-h2, h4  {
-    color: white;
-    font-size: xx-large;
-    font-weight: 300;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-variant: small-caps;
-    text-align: center;
-   
+h2 {
+    background-color: aqua;
+    height: 2in;
 }
+ h4 {
+    background-color: gold;
+    height: 2in;
+ }
 
  
