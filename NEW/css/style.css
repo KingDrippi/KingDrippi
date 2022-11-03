@@ -1,0 +1,15 @@
+#contentbox {
+    background-color: aliceblue;
+    width: 110px;
+    height: 30px;
+    font-size: larger;
+}
+
+h1 {
+    color: gold;
+}
+
+.card {
+    margin: 10%;
+    padding: 10%;
+}
