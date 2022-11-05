@@ -1,0 +1,240 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*~~~~~~ MAIN BRAND STYLE ~~~~~~~~*/
+
+/* typography: */
+body, main, footer, nav, header {
+  font-family: "Open Sans";
+}
+a {
+  color:#e1a177;
+}
+.btn {
+  background-color: #FFF;
+  border:2px solid #e1a177;
+  border-radius: 0px;
+}
+
+/* Header & Navbar: */
+
+body {
+  margin:0;
+  color:#e1a177;
+  border-color: #e1a177;
+}
+
+header {
+  border-bottom: 2px solid #e1a177;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:50px;
+  background-color:#FFF;
+  color:#e1a177;
+}
+.header-top{
+  width:15%;
+}
+nav {
+  border-bottom: 2px solid #e1a177;
+  background-color:#e1a177;
+  position:sticky;
+  top:0px;
+  box-shadow: 0px 3px 3px 0px rgb(0,0,0,0.3);
+  display:flex;
+  justify-content: space-between;
+  z-index: 99;
+  font-weight: 500;
+}
+
+nav ul {
+  display:flex;
+  padding-left:0;
+  margin:0px;
+}
+
+nav li {
+  list-style-type: none;
+}
+nav a {
+  color:#e1a177;
+  text-decoration: none;
+  padding:5px 20px;
+  padding-left:2.5px;
+  display:inline-block;
+}
+nav a::before {
+  content:"|";
+  padding-right:5px;
+}
+nav a:hover {
+  background-color: #e1a177;
+  color:#f8feff;
+}
+.nav-contact {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  height:auto;
+  width:33%;
+}
+.nav-contact:hover {
+  color:#e1a177;
+}
+.nav-contact ion-icon{
+  margin-right:10px;
+}
+.nav-contact p {
+  margin:0;
+  margin-right: 10px;
+}
+
+#site_logo {
+  width:100%;
+}
+.site_title {
+  font-family: "Lobster";
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom:0;
+}
+.site_quote {
+  font-size: 1em;
+  text-align: right;
+  font-style: italic;
+  font-weight: 600;
+  margin:0px;
+}
+#site_logo:hover,.site_title:hover,.site_quote:hover {
+  color:#e1a177;
+  cursor:pointer;
+}
+
+
+/* MAIN Content */
+main {
+  padding: 25px 15%;
+}
+
+/* contents: */
+
+.content {
+  background-color: #f8feff;
+  border:2px solid #e1a177;
+  padding:15px;
+  color:#000;
+  box-shadow: 2px 3px 1px 1px rgba(0,0,0,0.3);
+  margin:50px 0px;
+  font-family: "Monsterrat" ;
+}
+.content-header {
+  font-size: 42pt;
+  font-family: "Lobster";
+  margin:0;
+  text-align: center;
+  padding:25px;
+  font-style: italic;
+  font-weight: bold;
+  color: #e1a177;
+}
+.content-subhead {
+  border-bottom: 1px solid #e1a177;
+  margin:0;
+  text-align: center;
+  margin-bottom:25px;
+  padding-bottom:25px;
+  font-family: "Monsterrat", "Times New Roman", sans-serif;
+  font-weight: normal;
+  font-style: italic;background-color: #e1a177;
+  color:#FFF ;
+}
+.content-content {
+  padding:20px;
+}
+
+
+/* Footer ~~~~~~~ */
+.footer-hat {
+  height:30px;
+  background-color: #FFF;
+  border-top:2px solid #e1a177;
+}
+footer {
+  background-color: #FFF;
+  padding:25px;
+  border-top:2px dashed #e1a177;
+  box-sizing: border-box;
+  display:flex;
+}
+footer h4, footer h5, footer h6 {
+  font-family: "Lobster";
+  margin:0;
+
+}
+.footer-left {
+  flex: 1;
+  margin-bottom:50px;
+  background-color: #e1a177;
+  color: #FFF;
+}
+.footer-right {
+  flex:3;
+  margin-left:25px;
+  background-color: #e1a177;
+  color: #FFF;
+}
+
+footer h4 {
+  font-size: 2em;
+  background-color: #000;
+}
+.footer-right h6 {
+  font-size: 1.5em;
+}
+.footer-right p {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.footer-feet {
+  background-color: #FFF;
+  height:40px;
+  border-top: 2px dashed #E1A177;
+
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:10px;
+  font-size: 8pt;
+}
+
+.footer-feet p {
+  margin:0;
+}
+
+/* Special typography */
+
+.dropcap {
+  float:left;
+  font-size:42pt;
+  margin-top: -5px;
+  line-height: 0.65;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  font-family: "Lobster";
+  font-weight: bold;
+}
+
+h2 {
+  background-color: rgb(9, 31, 9);
+  
+}
+
+h4 {
+  background-color: rgb(9, 31, 9);
+  
+}
+
