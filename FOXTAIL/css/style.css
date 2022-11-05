@@ -25,15 +25,17 @@ body {
   color:#e1a177;
   border-color: #e1a177;
 }
-
 header {
-  border-bottom: 2px solid #e1a177;
+  border-bottom: 2px solid #000;
   display:flex;
   align-items: center;
   justify-content: space-between;
   padding:50px;
-  background-color:#FFF;
-  color:#e1a177;
+  background-color:#e1a177;
+  color:#FFF;
+}
+h3 {
+  color: #000;
 }
 .header-top{
   width:15%;
@@ -49,6 +51,12 @@ nav {
   z-index: 99;
   font-weight: 500;
 }
+h5 {
+  background-color: #e1a177;
+  width: 100%%;
+  
+}
+
 
 nav ul {
   display:flex;
@@ -60,7 +68,7 @@ nav li {
   list-style-type: none;
 }
 nav a {
-  color:#e1a177;
+  color:#FFF;
   text-decoration: none;
   padding:5px 20px;
   padding-left:2.5px;
@@ -71,7 +79,7 @@ nav a::before {
   padding-right:5px;
 }
 nav a:hover {
-  background-color: #e1a177;
+  background-color: #000;
   color:#f8feff;
 }
 .nav-contact {
@@ -82,7 +90,7 @@ nav a:hover {
   width:33%;
 }
 .nav-contact:hover {
-  color:#e1a177;
+  color:#000;
 }
 .nav-contact ion-icon{
   margin-right:10px;
@@ -138,7 +146,7 @@ main {
   padding:25px;
   font-style: italic;
   font-weight: bold;
-  color: #e1a177;
+  color: #000;
 }
 .content-subhead {
   border-bottom: 1px solid #e1a177;
@@ -229,12 +237,12 @@ footer h4 {
 }
 
 h2 {
-  background-color: rgb(9, 31, 9);
+  background-color: #e1a177;
   
 }
 
 h4 {
-  background-color: rgb(9, 31, 9);
+  background-color:#e1a177
   
 }
 
