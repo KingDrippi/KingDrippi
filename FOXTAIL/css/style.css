@@ -69,6 +69,11 @@ header {
   background-color:#e1a177;
   color:#FFF;
 }
+
+#carousel-inner {
+  width: 20%;
+  height: 20%;
+}
 h3 {
   color: #000;
 }
