@@ -9,8 +9,14 @@
 body, main, footer, nav, header {
   font-family: "Open Sans";
 }
+
 a {
   color:#e1a177;
+}
+
+#keyword {
+  font-family: "Monsterrat";
+  font-style: italic;
 }
 .btn {
   background-color: #FFF;
