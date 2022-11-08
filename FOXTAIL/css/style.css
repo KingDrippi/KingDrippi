@@ -19,7 +19,9 @@ a {
 
 #keyword {
   font-family: "Monsterrat";
-  font-style: italic;
+  font-style: italic  ;
+  font-weight: bold;
+  
 }
 .btn {
   background-color: #FFF;
@@ -90,6 +92,8 @@ nav {
   justify-content: space-between;
   z-index: 99;
   font-weight: 500;
+  font-weight: bold;
+  
 }
 h5 {
   background-color: #e1a177;
@@ -228,10 +232,12 @@ footer {
   border-top:2px dashed #e1a177;
   box-sizing: border-box;
   display:flex;
+  padding: 5%;
 }
 footer h4, footer h5, footer h6 {
   font-family: "Lobster";
   margin:0;
+  
 
 }
 .footer-left {
@@ -245,18 +251,23 @@ footer h4, footer h5, footer h6 {
   margin-left:25px;
   background-color: #e1a177;
   color: #FFF;
+
 }
 
 footer h4 {
   font-size: 2em;
   background-color: #000;
+  padding: 2%;
 }
 .footer-right h6 {
   font-size: 1.5em;
+  padding: 2%;
+
 }
 .footer-right p {
   margin-left: 15px;
   margin-top: 10px;
+  padding: 2%;
 }
 
 .footer-feet {
@@ -300,5 +311,15 @@ h2 {
 h4 {
   background-color:#e1a177
   
+}
+#Gallery
+{
+display: grid;
+grid-template-columns: auto auto auto;
+padding: 10%;
+
+align-items: center;
+
+
 }
 
