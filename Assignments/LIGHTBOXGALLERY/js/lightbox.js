@@ -18,3 +18,19 @@ lightbox.src = this.src;
 let coffeeImage = document.getElementById('coffeeImage1');
 
 coffeeImage.onclick = openLightBox;
+function closeLightbox(){
+
+    lightboxContainer.classList.remove('display');
+
+    lightbox.src = "";
+
+}
+
+
+
+
+lightboxBackground.onclick = closeLightbox;
+
+lightboxCloser.onclick = closeLightbox;
+
+    //Turn off display class 
