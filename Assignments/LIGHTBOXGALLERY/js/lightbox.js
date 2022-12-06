@@ -15,9 +15,39 @@ lightbox.src = this.src;
 }
 
 
-let coffeeImage = document.getElementById('coffeeImage1');
+let coffeeImage1 = document.getElementById('coffeeImage1')
 
-coffeeImage.onclick = openLightBox;
+coffeeImage1.onclick = openLightBox;
+function closeLightbox(){
+
+    lightboxContainer.classList.remove('display');
+
+    lightbox.src = "";
+
+}
+
+let coffeeImage2 = document.getElementById('coffeeImage2');
+coffeeImage2.onclick = openLightBox;
+function closeLightbox(){
+
+    lightboxContainer.classList.remove('display');
+
+    lightbox.src = "";
+
+}
+
+let coffeeImage3 = document.getElementById('coffeeImage3');
+coffeeImage3.onclick = openLightBox;
+function closeLightbox(){
+
+    lightboxContainer.classList.remove('display');
+
+    lightbox.src = "";
+
+}
+
+let coffeeImage4 = document.getElementById('coffeeImage4');
+coffeeImage4.onclick = openLightBox;
 function closeLightbox(){
 
     lightboxContainer.classList.remove('display');
@@ -30,7 +60,6 @@ function closeLightbox(){
 
 
 lightboxBackground.onclick = closeLightbox;
-
 lightboxCloser.onclick = closeLightbox;
 
     //Turn off display class 
