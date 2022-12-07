@@ -10,44 +10,21 @@ function openLightBox(){
    //Display image src inside lightbox
 lightbox.src = this.src;
 
-
-
 }
 
+//Set single variable to get all images in gallery
+let galleryImages = document.getElementsByClassName("galleryImage");
 
-let coffeeImage1 = document.getElementById('coffeeImage1')
+//Create loop to cycle through images and run onclick event per image
 
-coffeeImage1.onclick = openLightBox;
-function closeLightbox(){
-
-    lightboxContainer.classList.remove('display');
-
-    lightbox.src = "";
-
-}
-
-let coffeeImage2 = document.getElementById('coffeeImage2');
-coffeeImage2.onclick = openLightBox;
-function closeLightbox(){
-
-    lightboxContainer.classList.remove('display');
-
-    lightbox.src = "";
-
-}
-
-let coffeeImage3 = document.getElementById('coffeeImage3');
-coffeeImage3.onclick = openLightBox;
-function closeLightbox(){
-
-    lightboxContainer.classList.remove('display');
-
-    lightbox.src = "";
-
-}
-
-let coffeeImage4 = document.getElementById('coffeeImage4');
-coffeeImage4.onclick = openLightBox;
+for (let i = 0; i < galleryImages.length; i++) {
+    let galleryImage = galleryImages[i];
+    galleryImage.onclick = openLightBox;
+    
+  }
+  
+  
+//Function to close lightbox
 function closeLightbox(){
 
     lightboxContainer.classList.remove('display');
