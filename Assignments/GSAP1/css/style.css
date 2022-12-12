@@ -15,6 +15,37 @@ body {
     background-color: blue;
     margin-top: 70px;
     border-radius: 5%;
+
+}
+.chucked2    {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(231, 231, 240);
+  margin-top: 70px;
+  border-radius: 5%;
+}
+
+.chucked3    {
+  height: 100px;
+  width: 100px;
+  background-color: orange;
+  margin-top: 70px;
+  border-radius: 5%;
+}
+.chucked4    {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(250, 3, 3);
+  margin-top: 70px;
+  border-radius: 5%;
+}
+
+.chucked5   {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 200);
+  margin-top: 70px;
+  border-radius: 5%;
 }
 
  .column {
@@ -37,9 +68,8 @@ font-size: 5rem;
   font-size: 6rem;
 }
    
+p  {
+  color: rgb(229, 226, 223);
 
-
-
- 
- 
+}
  
