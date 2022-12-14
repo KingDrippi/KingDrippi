@@ -1,0 +1,23 @@
+.site-hero {
+    height: s80vh;
+    background-image: url("../assets/background.jpeg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    text-align: center;
+    
+}
+
+
+ 
+ 
