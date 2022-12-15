@@ -12,11 +12,7 @@ body, main, footer, nav, header {
 a {
   color:#192e55;
 }
-.btn {
-  background-color: #1d05f5;
-  border:2px solid #2e4c83;
-  border-radius: 0px;
-}
+
 form {
   display: block;
   margin-top: 0em;
